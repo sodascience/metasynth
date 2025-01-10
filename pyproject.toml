@@ -69,6 +69,9 @@ builtin = "metasyn.provider:BuiltinDistributionProvider"
 [project.entry-points."metasyn.privacy"]
 none = "metasyn.privacy:BasicPrivacy"
 
+[project.entry-points."metasyn.filehandler"]
+builtin = "metasyn.filehandler:_AVAILABLE_FILE_HANDLERS"
+
 [tool.setuptools]
 packages = ["metasyn"]
 obsoletes = ["metasynth"]

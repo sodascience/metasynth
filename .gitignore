@@ -1,6 +1,9 @@
 # setuptools-scm generated file that can be ignored
 _version.py
 
+examples/data/raw
+examples/data/synthetic
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
